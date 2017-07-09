@@ -24,8 +24,10 @@ github_username:  ihaywood3
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins_dir:
+  - jekyll-feed
+gems:
   - jekyll-feed
 
 # Exclude from processing.
